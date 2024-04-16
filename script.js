@@ -1,6 +1,6 @@
-let xp = 0;
-let health = 100;
-let gold = 50;
+let xp;
+let health;
+let gold;
 let currentWeapon = 0;
 let fighting;
 let monsterHealth;
@@ -16,6 +16,16 @@ const goldText = document.querySelector("#goldText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
+
+
+// Initialize
+xp = 0;
+xpText.textContent = xp;
+health = 100;
+healthText.textContent = health;
+gold = 100;
+goldText.textContent = gold;
+
 const weapons = [
     { name: 'stick', power: 5 },
     { name: 'dagger', power: 30 },
@@ -24,17 +34,17 @@ const weapons = [
 ];
 const monsters = [
     {
-        name: "slime",
+        name: "Slime",
         level: 2,
         health: 15
     },
     {
-        name: "fanged beast",
+        name: "Fanged Beast",
         level: 8,
         health: 60
     },
     {
-        name: "dragon",
+        name: "Dragon",
         level: 20,
         health: 300
     }
