@@ -15,7 +15,6 @@ body {
     box-shadow: black 10px 10px 10px;
     border: 1px solid #0a0a23;
     border-radius: 10px;
-    overflow-y: scroll;
     scale: 2;
 }
 
@@ -70,8 +69,9 @@ button {
     color: #0a0a23;
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 3px solid #feac32;
+    border: 3px solid #ffffff;
     border-radius: 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -82,4 +82,3 @@ button {
     }
 
 }
-
