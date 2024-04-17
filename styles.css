@@ -10,11 +10,12 @@ body {
     width: 30%;
     background-color: #ffffff;
     color: #ffffff;
-    margin: 13% auto 0px;
+    margin: 13% auto 20px;
     padding: 10px;
     box-shadow: black 10px 10px 10px;
     border: 1px solid #0a0a23;
     border-radius: 10px;
+    overflow-y: scroll;
     scale: 2;
 }
 
